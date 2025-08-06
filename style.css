@@ -1,0 +1,68 @@
+/* Reset and layout */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Weather App Card */
+.weather-app {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  max-width: 90%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.weather-app:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Input */
+input[type="text"] {
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Button */
+button {
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #217dbb;
+}
+
+/* Weather Result */
+#weatherResult {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Weather Icon */
+#weatherResult img {
+  width: 80px;
+  margin: 10px 0;
+}
